@@ -30,7 +30,12 @@ def mm(compound):
     molarmass = find_molar_mass(compound)
 
     for match in matches:
-        molarmass += find_molar_mass(match[0]) * int(match[1])
+        if match[1] == '':
+            n = 1
+        else:
+            n = int(match[1])
+
+        molarmass += find_molar_mass(match[0]) * n
 
     return molarmass
 
