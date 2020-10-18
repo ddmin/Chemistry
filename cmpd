@@ -56,12 +56,12 @@ def main():
 
     title = Text(justify='center', style='#39FF14')
 
-    title.append(r'                        __    ° ' + '\n')
-    title.append(r'    _________ ___  ____  ____/ / _     ° __' + '\n')
-    title.append(r'   / ___/ __ `__ \/ __ \/ __  /  |  °    |/' + '\n')
-    title.append(r' / /__/ / / / / / /_/ / /_/ /   |~*~~~~~|' + '\n')
-    title.append(r' \___/_/ /_/ /_/ .___/\__,_/    | .   * |' + '\n')
-    title.append(r'               /_/              |*___.__|')
+    title.append(r'                        __      ° ' + '\n')
+    title.append(r'    _________ ___  ____  ____/ /   _     ° __' + '\n')
+    title.append(r'   / ___/ __ `__ \/ __ \/ __  /    |  °    |/' + '\n')
+    title.append(r' / /__/ / / / / / /_/ / /_/ /     |~*~~~~~|' + '\n')
+    title.append(r' \___/_/ /_/ /_/ .___/\__,_/      | .   * |' + '\n')
+    title.append(r'               /_/                |*___.__|')
     rich.print(title)
 
     subtitle = Text(justify='center')
