@@ -1,5 +1,7 @@
 # Chemistry
 
+![](cmpd.png)
+
 * Wikipedia Elements scraper
 * Terminal Compound Parser
 * JSON file of elements
