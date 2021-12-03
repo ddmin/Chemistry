@@ -4,9 +4,9 @@
 import re
 import json
 import os
+import sys
 
 import rich
-from rich.prompt import Prompt
 from rich.text import Text
 
 CURRENT_DIR = '/home/ddmin/Code/Python/Chemistry'
@@ -69,10 +69,10 @@ def main():
     rich.print(subtitle)
 
     compound = 'compound'
-    while compound:
+    while compound.lower() != "exit":
         try:
             compound = input(">> ")
-            if compound:
+            if compound.lower() != "exit":
                 print(f'Molar Mass: {mm(compound)}')
                 print()
         except:
